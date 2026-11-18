@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MR Agency - hjemmesider, Meta Ads og AI for danske virksomheder</title>
+<meta name="description" content="Marius Rye Jensen, MR Agency. Nye hjemmesider til håndværkere og lokale virksomheder, Meta Ads, konverteringsoptimering og AI-automatiseringer. Karrebæksminde.">
+<link rel="canonical" href="https://mragency-web.dk/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mragency-web.dk/">
+<meta property="og:title" content="MR Agency - Marius Rye Jensen">
+<meta property="og:description" content="Hjemmesider, Meta Ads, konverteringsoptimering og AI-automatiseringer for danske virksomheder.">
+<meta property="og:image" content="https://mragency-web.dk/img/marius-rye-jensen-laptop.jpg">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","@id":"https://mragency.dk/#marius","name":"Marius Rye Jensen","jobTitle":"Ejer af MR Agency","url":"https://mragency-web.dk/","image":"https://mragency-web.dk/img/marius-rye-jensen-laptop.jpg","worksFor":{"@id":"https://mragency.dk/#organisation"},"sameAs":["https://mragency.dk/artikler/forfatter/marius-rye-jensen/","https://www.linkedin.com/in/marius-rye-jensen-3a6514209/","https://www.instagram.com/marius.rye/"]},
+{"@type":"ProfessionalService","@id":"https://mragency.dk/#organisation","name":"MR Agency","url":"https://mragency.dk","logo":"https://mragency-web.dk/img/mr-agency-logo.png","image":"https://mragency-web.dk/img/marius-rye-jensen-laptop.jpg","email":"marius@mragency.dk","telephone":"+4542716061","address":{"@type":"PostalAddress","addressLocality":"Karrebæksminde","addressCountry":"DK"},"areaServed":"DK","founder":{"@id":"https://mragency.dk/#marius"},"sameAs":["https://mragency.dk","https://www.trustpilot.com/review/mragency.dk"]}
+]}
+</script>
+<style>
+:root{--bg:#070b14;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--mint:#6ee7b7;--text:#fff;--muted:rgba(255,255,255,.68)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:-20% -20% auto;height:80vh;background:radial-gradient(50% 50% at 50% 0%,rgba(16,185,129,.18),transparent 70%);pointer-events:none;z-index:-1}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+h1,h2{font-family:'Anton',sans-serif;font-weight:400;letter-spacing:.01em;line-height:1.05;text-transform:uppercase}
+.grad{background:linear-gradient(90deg,#6ee7b7,#99f6e4);-webkit-background-clip:text;background-clip:text;color:transparent}
+.kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--mint);font-weight:700;margin-bottom:14px}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
+.brand img{width:34px;height:34px;border-radius:9px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-mint{background:var(--mint);color:#062016;box-shadow:0 10px 30px -10px rgba(110,231,183,.6)}
+.btn-ghost{border:1px solid var(--line);background:var(--card)}
+.btn-sm{padding:9px 16px;font-size:14px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding:48px 0 80px}
+.hero h1{font-size:clamp(42px,6.5vw,76px)}
+.hero p.lead{margin-top:22px;font-size:19px;color:var(--muted);max-width:540px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.photo{position:relative}
+.photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:38% 30%;border-radius:28px;border:1px solid var(--line);box-shadow:0 40px 100px -30px rgba(0,0,0,.9)}
+.photo .tag{position:absolute;left:-18px;bottom:28px;background:rgba(7,11,20,.85);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:16px;padding:12px 16px;font-size:14px}
+.photo .tag b{display:block;font-size:16px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding-bottom:90px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}
+.stat .n{font-family:'Anton',sans-serif;font-size:40px;line-height:1}
+.stat .l{color:var(--muted);font-size:14px;margin-top:6px}
+section{padding-bottom:96px}
+.head{max-width:680px;margin-bottom:36px}
+.head h2{font-size:clamp(32px,4.5vw,52px)}
+.head p{color:var(--muted);margin-top:14px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;backdrop-filter:blur(8px)}
+.card .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(110,231,183,.12);border:1px solid rgba(110,231,183,.25);color:var(--mint);margin-bottom:14px}
+.card h3{font-size:18px}
+.card p{color:var(--muted);font-size:15px;margin-top:6px}
+.ba{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line);aspect-ratio:1600/872;user-select:none;touch-action:pan-y;cursor:ew-resize;box-shadow:0 40px 100px -30px rgba(0,0,0,.9)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .before{clip-path:inset(0 50% 0 0)}
+.ba .before img{filter:saturate(.6) brightness(.9)}
+.ba .bar{position:absolute;top:0;bottom:0;left:50%;width:3px;margin-left:-1.5px;background:var(--mint);box-shadow:0 0 20px 4px rgba(110,231,183,.7)}
+.ba .knob{position:absolute;top:50%;left:50%;width:50px;height:50px;margin:-25px 0 0 -25px;border-radius:50%;background:var(--mint);color:#062016;display:grid;place-items:center;font-weight:700;box-shadow:0 0 0 6px rgba(110,231,183,.25)}
+.ba .lbl{position:absolute;top:14px;padding:4px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.2em}
+.ba .l1{left:14px;background:rgba(0,0,0,.7);border:1px solid var(--line)}
+.ba .l2{right:14px;background:var(--mint);color:#062016}
+.ba-note{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:14px;color:var(--muted);font-size:14px}
+.ba-note a{color:var(--mint);font-weight:700;text-decoration:none}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center}
+.about p{color:var(--muted);font-size:17px;margin-top:14px}
+.final{text-align:center;background:linear-gradient(180deg,rgba(110,231,183,.08),rgba(110,231,183,.02));border:1px solid rgba(110,231,183,.2);border-radius:28px;padding:56px 24px}
+.final h2{font-size:clamp(32px,5vw,56px)}
+.final p{color:var(--muted);margin:14px auto 0;max-width:520px}
+.final .cta{justify-content:center}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.fade{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.fade.in{opacity:1;transform:none}
+@media (max-width:860px){
+ .hero{grid-template-columns:1fr;gap:36px;padding-top:20px}
+ .photo{max-width:420px}
+ .photo .tag{left:12px}
+ .grid{grid-template-columns:1fr 1fr}
+ .about{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+ .grid,.stats{grid-template-columns:1fr}
+ .hide-sm{display:none}
+ .hero p.lead{font-size:17px}
+}
+@media (prefers-reduced-motion:reduce){.fade{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <a class="brand" href="/"><img src="img/mr-agency-logo.png" alt="MR Agency logo" width="34" height="34">MR Agency</a>
+  <a class="btn btn-ghost btn-sm" href="tel:+4542716061">Ring 42 71 60 61</a>
+ </header>
+
+ <div class="hero">
+  <div class="fade">
+   <p class="kicker">Marius Rye Jensen · MR Agency</p>
+   <h1>Flere kunder fra nettet. <span class="grad">Uden at du skal tænke over det.</span></h1>
+   <p class="lead">Jeg hedder Marius og driver MR Agency fra Karrebæksminde. Jeg bygger hjemmesider, annoncer og automatiseringer for håndværkere og lokale virksomheder, så telefonen ringer, og kunderne finder dig, også når de spørger Google eller ChatGPT.</p>
+   <div class="cta">
+    <a class="btn btn-mint" href="mailto:marius@mragency.dk?subject=Henvendelse%20fra%20mragency-web.dk">Skriv til mig</a>
+    <a class="btn btn-ghost" href="#foer-efter">Se før og efter</a>
+   </div>
+  </div>
+  <div class="photo fade">
+   <img src="img/marius-rye-jensen-laptop.jpg" alt="Marius Rye Jensen, ejer af MR Agency, ved sin computer" width="1400" height="933">
+   <div class="tag"><b>Marius Rye Jensen</b>Ejer, MR Agency</div>
+  </div>
+ </div>
+
+ <div class="stats fade">
+  <div class="stat"><div class="n grad">5+ år</div><div class="l">med Meta Ads og performance marketing</div></div>
+  <div class="stat"><div class="n grad">300.000 kr.</div><div class="l">i annoncebudget under styring hver måned</div></div>
+  <div class="stat"><div class="n grad">20+</div><div class="l">danske virksomheder hjulpet</div></div>
+ </div>
+
+ <section>
+  <div class="head fade">
+   <p class="kicker">Det laver jeg</p>
+   <h2>Én partner til <span class="grad">hele vejen fra klik til kunde</span></h2>
+   <p>Ingen lange kontrakter og ingen mellemled. Du får mig direkte, og jeg måler på det, der betyder noget: henvendelser og salg.</p>
+  </div>
+  <div class="grid">
+   <div class="card fade"><div class="ic">◧</div><h3>Hjemmesider</h3><p>Hurtige, moderne sider, der virker på mobilen, er nemme at ringe fra og bliver fundet på Google.</p></div>
+   <div class="card fade"><div class="ic">◎</div><h3>Meta Ads</h3><p>Annoncer på Facebook og Instagram, der skaffer henvendelser, ikke bare likes.</p></div>
+   <div class="card fade"><div class="ic">↗</div><h3>Konverteringsoptimering</h3><p>Flere af dem, der allerede besøger din side, bliver til kunder.</p></div>
+   <div class="card fade"><div class="ic">✦</div><h3>AI-synlighed</h3><p>Din virksomhed skal dukke op, når kunderne spørger ChatGPT og Google om en håndværker i nærheden.</p></div>
+   <div class="card fade"><div class="ic">⚙</div><h3>Automatiseringer</h3><p>AI og automatik, der tager sig af tilbud, opfølgning og de opgaver, der stjæler din tid.</p></div>
+   <div class="card fade"><div class="ic">✉</div><h3>Vækstpartner</h3><p>Email marketing, landingssider og strategi samlet ét sted, med fast kontakt til mig.</p></div>
+  </div>
+ </section>
+
+ <section id="foer-efter">
+  <div class="head fade">
+   <p class="kicker">Før og efter · Lokalmureren</p>
+   <h2>Samme dygtige murer. <span class="grad">Helt ny hjemmeside.</span></h2>
+   <p>Telefonnumre i øjenhøjde, anmeldelser i toppen og ydelser, kunden kan finde med ét klik. Træk i håndtaget.</p>
+  </div>
+  <div class="ba fade" id="ba" role="slider" tabindex="0" aria-label="Sammenlign før og efter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+   <img src="img/lokalmureren-efter.jpg" alt="Lokalmurerens nye forside" loading="lazy" width="1600" height="872">
+   <div class="before" style="position:absolute;inset:0"><img src="img/lokalmureren-foer.jpg" alt="Lokalmurerens gamle forside" loading="lazy" width="1600" height="872"></div>
+   <span class="lbl l1">FØR</span><span class="lbl l2">EFTER</span>
+   <div class="bar"></div><div class="knob" aria-hidden="true">⇆</div>
+  </div>
+  <div class="ba-note"><span>Lokalmureren · Stevns, Faxe og Køge</span><a href="https://lokalmureren.dk/" target="_blank" rel="noopener">Se den nye side live ↗</a></div>
+ </section>
+
+ <section>
+  <div class="about">
+   <div class="fade"><p class="kicker">Om mig</p><h2 style="font-size:clamp(32px,4.5vw,52px)">Lokal, direkte <span class="grad">og målt på resultater</span></h2></div>
+   <div class="fade">
+    <p>Jeg startede MR Agency fra mit gamle børneværelse og har siden hjulpet ejendomsmæglere, køreskoler, håndværkere og webshops med at få flere kunder. Næstved.nu har skrevet om historien.</p>
+    <p>Hvis du har fået en mail fra mig, er det fordi jeg har kigget på din hjemmeside og set et konkret sted, hvor du taber kunder. Svar bare på mailen, så tager vi en snak. Det er gratis og uforpligtende.</p>
+    <div class="cta"><a class="btn btn-ghost" href="https://mragency.dk" target="_blank" rel="noopener">Se mere på mragency.dk ↗</a></div>
+   </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="final fade">
+   <p class="kicker">Lad os tage en snak</p>
+   <h2>Klar til <span class="grad">flere kunder?</span></h2>
+   <p>Ring, skriv eller svar på min mail. Du får svar fra mig, ikke fra en sælger.</p>
+   <div class="cta">
+    <a class="btn btn-mint" href="tel:+4542716061">Ring 42 71 60 61</a>
+    <a class="btn btn-ghost" href="mailto:marius@mragency.dk?subject=Henvendelse%20fra%20mragency-web.dk">marius@mragency.dk</a>
+   </div>
+  </div>
+ </section>
+
+ <footer>
+  <span>© 2026 MR Agency · Marius Rye Jensen · Karrebæksminde</span>
+  <a href="https://mragency.dk" target="_blank" rel="noopener">mragency.dk</a>
+ </footer>
+</div>
+<script>
+(function(){
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+ document.querySelectorAll('.fade').forEach(function(el){io.observe(el)});
+ var ba=document.getElementById('ba'),before=ba.querySelector('.before'),bar=ba.querySelector('.bar'),knob=ba.querySelector('.knob'),drag=false,pos=50;
+ function set(p){pos=Math.max(0,Math.min(100,p));before.style.clipPath='inset(0 '+(100-pos)+'% 0 0)';bar.style.left=knob.style.left=pos+'%';ba.setAttribute('aria-valuenow',Math.round(pos))}
+ function fromX(x){var r=ba.getBoundingClientRect();set((x-r.left)/r.width*100)}
+ ba.addEventListener('pointerdown',function(e){drag=true;ba.setPointerCapture(e.pointerId);fromX(e.clientX)});
+ ba.addEventListener('pointermove',function(e){if(drag)fromX(e.clientX)});
+ ba.addEventListener('pointerup',function(){drag=false});
+ ba.addEventListener('pointercancel',function(){drag=false});
+ ba.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){set(pos-5);e.preventDefault()}if(e.key==='ArrowRight'){set(pos+5);e.preventDefault()}});
+})();
+</script>
+</body>
+</html>
